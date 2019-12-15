@@ -1,0 +1,35 @@
+.contactUs {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.contact-heading {
+    color: #0d3ab3;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.contact-text {
+    font-size: 18px;
+    line-height: 1.67;
+    color: #4a4a4a;
+    margin-bottom: 24px;
+}
+
+.lable {
+    color: #333333;
+    font-size: 14px;
+}
+
+#contact-name,
+#contact-mobile,
+#contact-email,#contact-message {
+    width: 50%;
+    padding: 10px;
+    border: none;
+        border-bottom: 1px solid #aaa9ad;
+    margin-left: 25px;
+}
+#contact-message{
+    border-radius: 5px;
+}

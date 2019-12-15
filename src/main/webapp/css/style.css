@@ -1,0 +1,317 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.bg {
+    background: url('https://res.cloudinary.com/finzy/image/upload/Final1_oogh7d');
+    background-position: left;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: #00000000;
+    height: 60px;
+}
+
+.nav-logo-2 {
+    width: 50px;
+    height: 50px;
+}
+
+.nav-logo2-div {
+    cursor: pointer;
+    margin-left: -12px;
+}
+
+#below-text {
+    color: #333;
+    font-size: 9px;
+    text-align: center;
+    margin-top: -25px;
+    margin-left: 40px;
+}
+
+.logo-text {
+    color: #333;
+    font-size: 19px;
+    margin-top: -5px;
+}
+
+#left-bar {
+    border: 1px solid #aaa9ad;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.nav-logo-2 {
+    margin-top: 8px;
+}
+
+.logo-text:hover {
+    color: #333;
+}
+
+.nav-item:active {
+    border-bottom: 2px solid #000000;
+}
+
+#collapsibleNavbar a {
+    color: #0d3ab3;
+    letter-spacing: 1.05px;
+    font-size: 13px;
+    margin: 0px 0px 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#apply1 {
+    background-color: #0d3ab3;
+    border-radius: 8px;
+}
+#contactUs {
+    color: #0d3ab3;
+}
+
+#apply-text1 {
+    color: #ffffff;
+}
+
+.navbar-brand {
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        margin: 0;
+        padding: 0 !important;
+        flex-wrap: nowrap;
+    }
+    .nav-logo2-div .nav-link {
+        padding: 0;
+    }
+    .nav-logo-2 {
+        margin-left: 10px;
+        margin-top: 12px;
+    }
+    .navbar-brand {
+        margin-left: 5px;
+        margin-top: 4px;
+    }
+    #left-bar {
+        margin-top: 12px;
+    }
+    #collapsibleNavbar {
+        background-color: #ffffff;
+    }
+}
+
+.heading {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 22%;
+}
+
+.mid-div {
+    margin-top: 2%;
+    width: 70%;
+    height: 22%;
+    background-color: #ffffff;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    opacity: .9;
+}
+
+#loan-amount,
+#loan-Purpose {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #aaa9ad;
+    margin-left: 25px;
+}
+
+#tenure {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #aaa9ad;
+    margin-left: 25px;
+}
+
+.input-below {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.heading {
+    font-size: 35px;
+}
+
+.label {
+    color: #0d3ab3;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+#apply-2 {
+    background-color: #0d3ab3;
+    border-radius: 8px;
+    color: #ffffff;
+    margin-top: 22%;
+    width: 65%;
+}
+
+.btn-div {
+    width: 40%;
+}
+
+.div-below-text {
+    margin-top: 3%;
+    text-align: center;
+    margin: 17px 0px 0px 0px;
+}
+
+.text3 {
+    font-size: 18px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+    border-right: 1px solid #ffffff;
+    letter-spacing: 1.1px;
+    border-right: .5px solid #ffffff;
+    display: inline;
+    color: #ffffff;
+}
+
+
+/* .rbi-image-logo {
+    width: 120px;
+    height: 120px;
+}
+
+.rbi-image {
+    margin-left: 20px;
+} */
+
+#finzy-work {
+    margin-top: 100px;
+}
+
+.finzy-work-h2 {
+    margin-top: 10%;
+    text-align: center;
+    color: #0d3ab3;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.how-finzy-text {
+    text-align: center;
+    color: #4a4a4a;
+    font-size: 16px;
+    padding-top: 35px;
+    letter-spacing: 1.4px;
+}
+
+.finzy-img-div {
+    margin-top: 7%;
+    width: 70%;
+    height: 22%;
+    font-size: 16px;
+    background-color: #ffffff;
+    margin-left: 17%;
+}
+
+.finzy-work-h2-2 {
+    margin-top: 6%;
+    text-align: center;
+    color: #0d3ab3;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.img-finzy-work {
+    margin-top: 8%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 8%;
+}
+
+.carousel-img {
+    height: 270px;
+    width: 270px;
+}
+
+.core-team-img {
+    margin-top: 2%;
+    margin-left: 13%;
+    width: 200px;
+    height: 150px;
+}
+
+.core-team-heading {
+    margin-top: 2%;
+    color: #0d3ab3;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    padding-top: 7%;
+}
+
+.core-team-text {
+    color: #606797ab;
+    font-size: 18px;
+    text-align: center;
+}
+
+.team-member-name {
+    margin-top: 5%;
+    margin-left: 25%;
+    color: #08205f;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.team-designation {
+    margin-top: -6%;
+    color: #2f4682;
+    font-size: 14px;
+    margin-left: 25%;
+}
+
+.card {
+    border: none !important;
+    width: 18rem;
+    margin-left: 15px;
+}
+
+.carousel-img {
+    margin-top: 22%;
+}
+
+#why-borrow-finzy {
+    background-color: #0d3ab3;
+    margin-top:5%;
+}
+
+/*.carousel-textt {*/
+/*    align-content: left;*/
+/*}*/
+
+.about-team-member {
+    color: #303a5f;
+    margin-top: -12%;
+    font-size: 14px;
+    text-align: center;
+    /* margin-left: -5%; */
+}

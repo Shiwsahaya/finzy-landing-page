@@ -1,0 +1,51 @@
+.login-form {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    border-radius: 5px;
+    padding: 15px;
+    position: relative;
+    width: 40%;
+    /*margin: auto;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input[type=text],
+input[type=number],
+input[type=password],
+input[type=email],
+select {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 12px 0;
+    font-size: 16px;
+    display: inline-block;
+    border: 1px solid rgb(238, 201, 201);
+    border-radius: 6px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    margin-left: 30%;
+    width: 30%;
+    background-color: rgba(187, 118, 136, 1);
+    padding: 14px 20px;
+    /*margin: 8px 0;*/
+    border: none;
+    border-radius: 6px;
+}
+input[type=submit]:hover {
+    background-color: rgb(114, 156, 214);
+}
+.label {
+    font-size: 18px;
+    font-weight: 600;
+}
+.contact-heading,.contact-text{
+    text-align: center;
+}
+.label-contact{
+    color: #0d3ab3;
+    font-size: 16px;
+    margin-top: 10px;
+}
