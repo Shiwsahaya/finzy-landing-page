@@ -9,9 +9,11 @@
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="POJO.Contact"%>
 <%@ page import="static POJO.Constants.LOGIN_BUTTON" %>
+<%@ page import="static POJO.Constants.NAVBAR" %>
+<%@ page import="static POJO.Constants.*" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<jsp:include page="navbar.jsp"/>
+<jsp:include page="<%=NAVBAR%>"/>
 
 <%
 response.setHeader("Cache-Control","no-cache, no-store, must-revalidate");
@@ -42,4 +44,4 @@ if(session.getAttribute("sessionName")==null)
     </tbody>
 
 </table>
-<jsp:include page="footer.jsp"/>
+<jsp:include page="<%=FOOTER%>"/>

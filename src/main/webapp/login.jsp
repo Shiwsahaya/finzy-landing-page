@@ -37,4 +37,4 @@
         <input type="submit" value="<%=SUBMIT%>">
     </form>
 </div>
-<jsp:include page="footer.jsp"/>
+<jsp:include page="<%=FOOTER%>"/>

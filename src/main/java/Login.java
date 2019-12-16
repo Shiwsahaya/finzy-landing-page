@@ -12,6 +12,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
+
+import static POJO.Constants.TABLE;
+
 @WebServlet("/Login")//from Authentication
 public class Login extends  HttpServlet{
 
@@ -27,7 +30,7 @@ public class Login extends  HttpServlet{
         httpServletRequest.setAttribute("results",results);
         ServletContext servletContext=this.getServletContext();//Get a servlet context instance from the servlet instance
         //Get a request dispatcher from the servlet context instance
-        RequestDispatcher requestDispatcher=servletContext.getRequestDispatcher("/table.jsp");
+        RequestDispatcher requestDispatcher=servletContext.getRequestDispatcher("/"+TABLE);
         requestDispatcher.forward(httpServletRequest,httpServletResponse);
     }
 

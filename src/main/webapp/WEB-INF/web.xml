@@ -14,6 +14,25 @@
     </servlet-mapping>
 
   <servlet>
+    <servlet-name>error</servlet-name>
+    <jsp-file>/error.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>error</servlet-name>
+    <url-pattern>/error</url-pattern>
+  </servlet-mapping>
+
+  <filter>
+    <filter-name>JspFilter</filter-name>
+    <filter-class>JspFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>JspFilter</filter-name>
+    <url-pattern>*.jsp</url-pattern>
+  </filter-mapping>
+
+  <servlet>
+    <display-name>login</display-name>
     <servlet-name>login</servlet-name>
     <jsp-file>/login.jsp</jsp-file>
   </servlet>
@@ -29,6 +48,69 @@
   <servlet-mapping>
     <servlet-name>contactus</servlet-name>
     <url-pattern>/contactus</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>coreteam</servlet-name>
+    <jsp-file>/coreteam.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>coreteam</servlet-name>
+    <url-pattern>/coreteam</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>footer</servlet-name>
+    <jsp-file>/footer.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>footer</servlet-name>
+    <url-pattern>/footer</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>header</servlet-name>
+    <jsp-file>/header.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>header</servlet-name>
+    <url-pattern>/header</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>howwork</servlet-name>
+    <jsp-file>/howwork.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>howwork</servlet-name>
+    <url-pattern>/howwork</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>navbar</servlet-name>
+    <jsp-file>/navbar.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>navbar</servlet-name>
+    <url-pattern>/navbar</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>table</servlet-name>
+    <jsp-file>/table.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>table</servlet-name>
+    <url-pattern>/table</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>whyborrow</servlet-name>
+    <jsp-file>/whyborrow.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>whyborrow</servlet-name>
+    <url-pattern>/whyborrow</url-pattern>
   </servlet-mapping>
 
 
