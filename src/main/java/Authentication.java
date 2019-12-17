@@ -13,7 +13,7 @@ import java.io.IOException;
 
 import static POJO.Constants.*;
 
-@WebServlet("/"+LOGIN_REQUEST)
+@WebServlet("/"+ LOGIN_JSP_PAGE_TO_AUTHENTICATION_JAVA_CLASS)
 public class Authentication extends HttpServlet {
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         EntityManagerFactory entityManagerFactory= Persistence.createEntityManagerFactory("PU");
@@ -26,7 +26,7 @@ public class Authentication extends HttpServlet {
         {
             HttpSession session=request.getSession();
             session.setAttribute("sessionName",name);
-            RequestDispatcher requestDispatcher=request.getRequestDispatcher("/Login");
+            RequestDispatcher requestDispatcher=request.getRequestDispatcher(AUTHENTICATION_JAVA_CLASS_TO_LOGIN_JAVA_CLASS);
             requestDispatcher.forward(request,response);
 
         }

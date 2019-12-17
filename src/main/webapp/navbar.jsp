@@ -1,5 +1,5 @@
 <%@ page import="static POJO.Constants.LOGIN_BUTTON" %>
-<%@ page import="static POJO.Constants.LOGIN" %>
+<%@ page import="static POJO.Constants.TO_LOGIN_JSP_PAGE" %>
 <%@ page import="static POJO.Constants.*" %><%--
   Created by IntelliJ IDEA.
   User: shiw
@@ -56,7 +56,7 @@
                 <a href=<%=CONTACT_US%> class="nav-link">CONTACT US</a>
             </li>
             <li class="nav-item">
-                <a href=<%=LOGIN%> id="login-button" class="nav-link"><%=LOGIN_BUTTON%></a>
+                <a href=<%=TO_LOGIN_JSP_PAGE%> id="login-button" class="nav-link"><%=LOGIN_BUTTON%></a>
             </li>
             <form action="<%=LOG_OUT_REQUEST%>" method="GET">
                 <input type="submit" id="logout-button"  value="LOGOUT" style="color: #0d3ab3;margin-top: 30%;font-size: 13px;background-color: #f8f9fa; border: none;letter-spacing:1.05px;" >

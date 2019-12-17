@@ -13,9 +13,10 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-import static POJO.Constants.TABLE;
+import static POJO.Constants.AUTHENTICATION_JAVA_CLASS_TO_LOGIN_JAVA_CLASS;
+import static POJO.Constants.LOGIN_CLASS_TO_TABLE_JSP_PAGE;
 
-@WebServlet("/Login")//from Authentication
+@WebServlet(AUTHENTICATION_JAVA_CLASS_TO_LOGIN_JAVA_CLASS)//from Authentication
 public class Login extends  HttpServlet{
 
     public void doPost(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws IOException, ServletException {
@@ -30,7 +31,7 @@ public class Login extends  HttpServlet{
         httpServletRequest.setAttribute("results",results);
         ServletContext servletContext=this.getServletContext();//Get a servlet context instance from the servlet instance
         //Get a request dispatcher from the servlet context instance
-        RequestDispatcher requestDispatcher=servletContext.getRequestDispatcher("/"+TABLE);
+        RequestDispatcher requestDispatcher=servletContext.getRequestDispatcher("/"+ LOGIN_CLASS_TO_TABLE_JSP_PAGE);
         requestDispatcher.forward(httpServletRequest,httpServletResponse);
     }
 

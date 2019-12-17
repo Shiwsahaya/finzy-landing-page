@@ -26,7 +26,7 @@
 %>
 
 <div class="login-form">
-    <form action=<%=LOGIN_REQUEST%> method="POST">
+    <form action=<%=LOGIN_JSP_PAGE_TO_AUTHENTICATION_JAVA_CLASS%> method="POST">
 
         <label for="contact-name" class="login-label"><%=USER_NAME%></label><br>
         <input type="text" id="contact-name" name="name"><br>
